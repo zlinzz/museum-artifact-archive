@@ -15,7 +15,7 @@ export default function ArtworkCardDetail({objectID}) {
 
     useEffect(() => {
         setShowAdded(favouritesList?.includes(objectID))
-    }, [favouritesList])
+    }, [favouritesList, objectID])
 
     async function favouritesClicked(){
         if(showAdded){

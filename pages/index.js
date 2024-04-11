@@ -1,14 +1,17 @@
 /*********************************************************************************
-* BTI425 – Assignment 5
+* BTI425 – Assignment 6
 *
 * I declare that this assignment is my own work in accordance with Seneca's
 * Academic Integrity Policy:
 * 
 * https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
 * 
-* Name: _Zoey Lin_ Student ID: _139452221_ Date: _2024/03/22_
+* Name: _Zoey Lin_ Student ID: _139452221_ Date: _2024/04/11_
 *
-********************************************************************************/
+* Vercel App (Deployed) Link: https://bti425-a6-six.vercel.app/
+*
+* Render User-API (Deployed) Link: https://user-api-fg58.onrender.com
+********************************************************************************/ 
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';

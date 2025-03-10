@@ -1,40 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Museum Artifacts Archive Web App
 
-## Getting Started
 
-First, run the development server:
+## Live Demo
+You can try the live demo of the application by clicking the link below:
+- [Museum Artifacts Archive Web App](https://bti425-a6-six.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Note**: You may experience a 50+ second delay on the first request after a long period of inactivity.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Description
+A full-stack web application for archiving and managing museum artifacts with advanced features like user authentication, search filtering, the ability to favorite artifacts and track search and favorites history.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Artifact Display Cards**: Artifacts are shown with a card displaying the image, title, creation date, classification, and medium. Users can click to view more details. A placeholder is shown if no image is available.
 
-## Learn More
+- **Detailed Artifact View**: Displays the artifact’s artist, credit line, and dimensions. Users can add or remove artifacts from their favorites directly from this page for a personalized experience.
 
-To learn more about Next.js, take a look at the following resources:
+- **Favorites Tracking**: Users can add or remove artifacts from their favorite list for easy access later.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Search Filtering**: Allows users to find artifacts based on specific criteria such as title, artist, geo location and so on.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Search History**: Allows users to view and manage their search history, making it easier for users to revisit past searches. 
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Frontend**: 
+  - Next.js
+  - Bootstrap
+
+- **Backend**:
+  - Node.js
+  - Express.js
+  - MongoDB
+
+- **Authentication**: 
+  - JWT (JSON Web Tokens)
